@@ -1,8 +1,8 @@
-# curriculum-databases-projects-template
+## VET-CLICNIC
+This repository contains the vetenary database of different animals. 
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
+### AIM
+The goal is master the use of SQL langauge for updating, creating and querying a database. 
 
 ## Getting Started
 
@@ -15,23 +15,17 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Authors
 
-👤 **Author1**
+👤 **Victor Damola**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+>- GitHub: [@V0pe](https://github.com/V0pe)
+>- Twitter: [@de_vope_](https://twitter.com/de_vope)
+>- LinkedIn: [Victor Damola](https://linkedin.com/in/victor-damola-aderibigbe-27931ab0)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/V0pe/VET-CLINIC/issues)
 
 ## Show your support
 

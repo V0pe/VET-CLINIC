@@ -12,3 +12,5 @@ CREATE TABLE animals (
 
 /* alter Database schema to include new column */
 ALTER table animals ADD species VARCHAR;
+
+/* Mutiple tables*/

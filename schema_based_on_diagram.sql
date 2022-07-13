@@ -50,3 +50,5 @@ CREATE TABLE medical_histories_treatments(
     constraint fk_medical_histories foreign key (medical_histories_id) references medical_histories(id),
     constraint fk_treatments foreign key (treatments_id) references treatments(id)
 );
+
+ALTER TABLE medical_histories ADD COLUMN status VARCHAR;

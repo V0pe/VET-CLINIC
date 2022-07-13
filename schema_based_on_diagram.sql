@@ -28,7 +28,8 @@ CREATE TABLE medical_histories (
     id INT GENERATED ALWAYS AS IDENTITY,
     admitted_at TIMESTAMP,
     patient_id INT,
-    CONSTRAINT fk_medical_histories_patient FOREIGN KEY (patient_id) REFERENCES patients(id) ON DELETE CASCADE, 
+    CONSTRAINT fk_medical_histories_patient FOREIGN KEY (patient_id) REFERENCES patients(id) ON DELETE CASCADE,
+    status VARCHAR(30);
     PRIMARY KEY(id)
 );
 
@@ -51,4 +52,9 @@ CREATE TABLE medical_histories_treatments(
     constraint fk_treatments foreign key (treatments_id) references treatments(id)
 );
 
-ALTER TABLE medical_histories ADD COLUMN status VARCHAR(30);
+CREATE INDEX invoices_id ON invoices(id);
+CREATE INDEX treatments_id ON treatments(id);
+CREATE INDEX patients_id ON patientsid);
+CREATE INDEX medical_histories_id ON medical_histories(id);
+
+

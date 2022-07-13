@@ -4,6 +4,10 @@ This repository contains the vetenary database of different animals.
 ### AIM
 The goal is master the use of SQL langauge for updating, creating and querying a database. 
 
+## DATABASE DESIGN
+![image](https://user-images.githubusercontent.com/61356487/178721025-ce2119d5-2af5-4de1-a0d8-b914307c0686.png)
+
+
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:

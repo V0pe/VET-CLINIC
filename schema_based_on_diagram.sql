@@ -46,15 +46,17 @@ CREATE TABLE invoice_items (
 );
 
 CREATE TABLE medical_histories_treatments(
-    medical_histories_id int,
-    treatments_id int,
-    constraint fk_medical_histories foreign key (medical_histories_id) references medical_histories(id),
-    constraint fk_treatments foreign key (treatments_id) references treatments(id)
+    medical_history_id int,
+    treatment_id int,
+    constraint fk_medical_histories foreign key (medical_history_id) references medical_histories(id),
+    constraint fk_treatments foreign key (treatment_id) references treatments(id)
 );
 
-CREATE INDEX invoices_id ON invoices(id);
-CREATE INDEX treatments_id ON treatments(id);
-CREATE INDEX patients_id ON patientsid);
-CREATE INDEX medical_histories_id ON medical_histories(id);
+CREATE INDEX ON medical_histories (patient_id);
+CREATE INDEX ON invoices (medical_history_id);
+CREATE INDEX ON invoice_items (invoice_id);
+CREATE INDEX ON invoice_items (treatment_id);
+CREATE INDEX ON medical_histories_treatments (medical_history_id);
+CREATE INDEX ON medical_histories_treatments (treatment_id);
 
 
